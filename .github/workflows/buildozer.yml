@@ -1,7 +1,8 @@
 name: Build Kivy App
-on: 
+on:
   push:
     branches: [ main, master ]
+  workflow_dispatch:
 
 jobs:
   build:
